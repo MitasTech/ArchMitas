@@ -32,6 +32,7 @@ plasma-nm
 plasma-pa
 plasma-wayland-session
 powerdevil
+networkmanager-openvpn
 print-manager
 spectacle
 systemsettings
