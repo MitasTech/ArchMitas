@@ -1,6 +1,7 @@
 --END OF MINIMAL INSTALL--
 autojump
-brave-bin
+google-chrome
+ice-ssb
 bridge-utils
 dxvk-bin
 github-desktop-bin
