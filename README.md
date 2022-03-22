@@ -1,3 +1,8 @@
+This script doesnt belong to me. Chris Titus is the developer. This is for my personal use only. I added a few packages that i want on my computer, i changed grub to my custom bootloader theme and changed the ascii text on on the scripts to make it feel a little cooler and more enjoyable to me when installing Arch.
+
+Thank you Chris Titus for this awesome script!
+
+
 # ArchTitus Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
