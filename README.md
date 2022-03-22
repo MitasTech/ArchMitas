@@ -18,9 +18,9 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
-cd ArchTitus
-./archtitus.sh
+git clone https://github.com/MitasTech/ArchMitas
+cd ArchMitas
+./archmitas.sh
 ```
 
 ### System Description
