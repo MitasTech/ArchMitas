@@ -23,3 +23,6 @@ snapper-gui-git
 ttf-meslo
 vde2
 zoom
+lightdm
+lightdm-webkit2-greeter 
+lightdm-webkit-theme-aether
