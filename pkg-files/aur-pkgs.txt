@@ -4,6 +4,10 @@ brave-bin
 google-chrome
 ice-ssb
 touchegg
+timeshift
+lightdm
+lightdm-webkit2-greeter 
+lightdm-webkit-theme-aether
 bridge-utils
 dxvk-bin
 github-desktop-bin
@@ -23,6 +27,4 @@ snapper-gui-git
 ttf-meslo
 vde2
 zoom
-lightdm
-lightdm-webkit2-greeter 
-lightdm-webkit-theme-aether
+
