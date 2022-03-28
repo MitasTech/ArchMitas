@@ -6,7 +6,7 @@ Thank you Chris Titus for this awesome script!
 # ArchTitus Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-<img src="https://i.imgur.com/YiNMnan.png" />
+<img src="https://github.com/MitasTech/ArchMitas/blob/main/mitasarch.png" />
 
 This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
 
