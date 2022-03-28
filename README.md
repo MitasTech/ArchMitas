@@ -3,7 +3,7 @@ This script doesnt belong to me. Chris Titus is the developer. This is for my pe
 Thank you Chris Titus for this awesome script!
 
 
-# ArchTitus Installer Script
+# ArchMitas Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 <img src="https://github.com/MitasTech/ArchMitas/blob/main/mitasarch.png" />
