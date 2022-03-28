@@ -105,3 +105,4 @@ zip
 zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
+latte-dock

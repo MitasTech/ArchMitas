@@ -24,6 +24,7 @@ source $HOME/ArchMitas/configs/setup.conf
   git clone "https://github.com/ChrisTitusTech/zsh"
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
   ln -s "~/zsh/.zshrc" ~/.zshrc
+  git clone "https://github.com/MitasTech/MitasLinux"
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchMitas/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
@@ -71,6 +72,23 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     ./dotfiles-openbox/install-titus.sh
   fi
 fi
+
+echo -ne "
+-------------------------------------------------------------------------
+                    Setting Wallpaper
+-------------------------------------------------------------------------
+"
+dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript 'string:
+var Desktops = desktops();                                                                                                                       
+for (i=0;i<Desktops.length;i++) {
+        d = Desktops[i];
+        d.wallpaperPlugin = "org.kde.image";
+        d.currentConfigGroup = Array("Wallpaper",
+                                    "org.kde.image",
+                                    "General");
+        d.writeConfig("Image", "file:///$HOME/MitasLinux/iamroot1.png");
+}'
+
 
 echo -ne "
 -------------------------------------------------------------------------
