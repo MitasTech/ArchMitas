@@ -23,6 +23,7 @@ source $HOME/ArchMitas/configs/setup.conf
   git clone "https://github.com/ChrisTitusTech/zsh"
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
   ln -s "~/zsh/.zshrc" ~/.zshrc
+  git clone "https://github.com/MitasTech/BootloaderThemes"
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchMitas/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
