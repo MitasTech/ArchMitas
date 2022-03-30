@@ -27,4 +27,5 @@ snapper-gui-git
 ttf-meslo
 vde2
 zoom
+whatsapp-nativefier
 
