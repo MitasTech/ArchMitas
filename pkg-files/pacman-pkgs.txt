@@ -9,6 +9,8 @@ xterm
 binutils
 dosfstools
 linux-headers
+linux-lts
+linux-lts-headers
 noto-fonts-emoji
 usbutils
 xdg-user-dirs
