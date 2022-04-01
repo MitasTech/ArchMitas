@@ -57,10 +57,11 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 if [[ ${DESKTOP_ENV} == "kde" ]]; then
-  systemctl enable sddm.service
+  systemctl enable lightdm.service
   if [[ ${INSTALL_TYPE} == "FULL" ]]; then
-    echo [Theme] >>  /etc/sddm.conf
-    echo Current=Nordic >> /etc/sddm.conf
+    #echo [Theme] >>  /etc/sddm.conf
+    #echo Current=Nordic >> /etc/sddm.conf
+    systemctl enable lightdm.service
   fi
 
 elif [[ "${DESKTOP_ENV}" == "gnome" ]]; then
