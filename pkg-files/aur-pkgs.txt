@@ -28,4 +28,5 @@ ttf-meslo
 vde2
 zoom
 whatsapp-nativefier
+konsave
 
