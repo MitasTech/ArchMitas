@@ -108,3 +108,4 @@ zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
 latte-dock
+discord
