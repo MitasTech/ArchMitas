@@ -14,6 +14,7 @@ linux-lts-headers
 noto-fonts-emoji
 usbutils
 xdg-user-dirs
+kitty
 --END OF MINIMAL INSTALL--
 alsa-plugins
 alsa-utils
