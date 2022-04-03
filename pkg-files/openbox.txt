@@ -30,6 +30,7 @@ jq
 w3m
 geany
 nano
+vim
 viewnior
 pavucontrol
 parcellite
