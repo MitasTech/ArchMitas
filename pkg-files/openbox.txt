@@ -1,5 +1,7 @@
 openbox
 lightdm
+lightdm-webkit2-greeter
+lightdm-webkit-theme-aether
 lightdm-gtk-greeter
 thunar
 lxsession
@@ -14,8 +16,6 @@ dunst
 tint2
 rofi
 feh
-lightdm-webkit2-greeter
-lightdm-webkit-theme-aether
 lxappearance
 qt5ct
 gsimplecal
