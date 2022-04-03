@@ -15,7 +15,7 @@ tint2
 rofi
 feh
 lightdm-webkit2-greeter
-lightdm-webkit-theme-litarvan
+lightdm-webkit-theme-aether
 lxappearance
 qt5ct
 gsimplecal
