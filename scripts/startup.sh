@@ -273,7 +273,7 @@ set_option NAME_OF_MACHINE $nameofmachine
 aurhelper () {
   # Let the user choose AUR helper from predefined list
   echo -ne "Please enter your desired AUR helper:\n"
-  options=(paru yay picaur aura trizen pacaur none)
+  options=(yay paru picaur aura trizen pacaur none)
   select_option $? 4 "${options[@]}"
   aur_helper=${options[$?]}
   set_option AUR_HELPER $aur_helper
