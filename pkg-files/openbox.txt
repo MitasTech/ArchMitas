@@ -1,7 +1,5 @@
 openbox
 lightdm
-lightdm-webkit2-greeter
-lightdm-webkit-theme-aether
 lightdm-gtk-greeter
 thunar
 lxsession
@@ -11,6 +9,8 @@ alsa-utils
 pulseaudio
 pulseaudio-alsa
 wireless_tools
+lightdm-webkit2-greeter
+lightdm-webkit-theme-litarvan
 zsh
 dunst
 tint2
