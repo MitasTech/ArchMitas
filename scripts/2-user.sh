@@ -80,7 +80,7 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     cp -r ~/ArchMitas/configs/full-backup/* ~/.config/
     sleep 1
     cd ~
-    cd .config
+    cd ~/ArchMitas/configs/
     dconf load / < full-backup
   fi
 fi
