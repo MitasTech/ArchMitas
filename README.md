@@ -1,6 +1,7 @@
-This original script doesnt belong to me. Chris Titus is the developer. This is for my personal use only. I modified it to fit my needs, configured it to make the best out of my desktop environment. I've also added a few packages that i want on my computer, i also changed grub to my custom bootloader theme and changed the ascii text on on the scripts to make it feel a little cooler and more enjoyable to me when installing Arch.
+This original script doesnt belong to me. Chris Titus is the developer. This is for my personal use only. I modified it to fit my needs, configured it to make the best out of my desktop environment. The full KDE desktop has all my configurations, Gnome too. I've Cloned Chris Titus awesome config to use on the Awesome Desktop as a test and configure it later. 
+I've also added a few packages that i want on my computer, i also changed grub to my custom bootloader theme and changed the ascii text on on the scripts to make it feel a little cooler and more enjoyable to me when installing Arch.
 
-Thank you Chris Titus for this awesome script!
+Thank you Chris for this awesome script!
 
 
 # ArchMitas Installer Script
