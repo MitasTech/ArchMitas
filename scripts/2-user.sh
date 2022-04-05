@@ -82,6 +82,8 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     cd ~
     cd .config
     dconf load / < full-backup
+  fi
+fi
 
 echo -ne "
 -------------------------------------------------------------------------
