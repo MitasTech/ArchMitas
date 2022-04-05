@@ -72,6 +72,17 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
   fi
 fi
 
+# Theming DE if user chose FULL Gnome installation
+if [[ $INSTALL_TYPE == "FULL" ]]; then
+  if [[ $DESKTOP_ENV == "gnome" ]]; then
+    cp -r ~/ArchMitas/configs/.config/* ~/.config/
+    cd ~
+    cp -r ~/ArchMitas/configs/full-backup/* ~/.config/
+    sleep 1
+    cd ~
+    cd .config
+    dconf load / < full-backup
+
 echo -ne "
 -------------------------------------------------------------------------
                     SYSTEM READY FOR 3-post-setup.sh
