@@ -173,8 +173,8 @@ makepkg -si -y
 
 sleep 1
 cd ~
-cp -r ~/home/$USERNAME/zsh/.zshrc /home/$USERNAME/
-cp -r ~/home/$USERNAME/ArchMitas/configs/.bashrc /home/$USERNAME/
+cp -r ~/zsh/.zshrc ~/
+cp -r ~/ArchMitas/configs/.bashrc ~/
 
 echo -ne "
 -------------------------------------------------------------------------
