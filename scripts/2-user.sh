@@ -84,6 +84,20 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     dconf load / < full-backup
   fi
 fi
+cd ~
+git clone https://aur.archlinux.org/chrome-gnome-shell.git
+cd chrome-gnome-shell
+makepkg -si
+
+cd ~
+git clone https://github.com/ewlsh/dash-to-dock
+cd dash-to-dock
+git checkout ewlsh/gnome-40
+make
+sleep 1
+make install
+sleep 1
+cd ~
 echo -ne "
 -------------------------------------------------------------------------
                     SYSTEM READY FOR 3-post-setup.sh
