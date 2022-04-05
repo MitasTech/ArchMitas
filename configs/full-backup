@@ -1,0 +1,132 @@
+[control-center]
+last-panel='background'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+$USER='user'
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/archpacman.png'
+primary-color='#3465a4'
+secondary-color='#000000'
+user='$USER'
+
+[desktop/input-sources]
+per-window=false
+sources=[('xkb', 'gb')]
+xkb-options=@as []
+
+[desktop/interface]
+font-antialiasing='grayscale'
+font-hinting='slight'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Nordic-darker'
+icon-theme='breeze'
+show-battery-percentage=true
+
+[desktop/notifications]
+application-children=['org-gnome-extensions-desktop']
+
+[desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/adwaita-timed.xml'
+primary-color='#3465a4'
+secondary-color='#000000'
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/wm/keybindings]
+close=['<Super>q']
+maximize=['<Super>m']
+
+[desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[epiphany/state]
+is-maximized=false
+window-position=(-1, -1)
+window-size=(1024, 768)
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[nautilus/window-state]
+initial-size=(1067, 645)
+maximized=false
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>x'
+command='kitty'
+name='kitty'
+
+[shell]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'bssh.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'org.gnome.Books.desktop': <{'position': <5>}>, 'org.gnome.Photos.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'org.gnome.gedit.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'gnome-control-center.desktop': <{'position': <11>}>, 'gnome-system-monitor.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'org.gnome.Terminal.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'bvnc.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'avahi-discover.desktop': <{'position': <18>}>, 'org.gnome.Cheese.desktop': <{'position': <19>}>, 'cmake-gui.desktop': <{'position': <20>}>, 'io.github.celluloid_player.Celluloid.desktop': <{'position': <21>}>, 'code-oss.desktop': <{'position': <22>}>}, {'discord.desktop': <{'position': <0>}>, 'electron17.desktop': <{'position': <1>}>, 'org.gnome.Extensions.desktop': <{'position': <2>}>, 'gimp.desktop': <{'position': <3>}>, 'gparted.desktop': <{'position': <4>}>, 'google-chrome.desktop': <{'position': <5>}>, 'grub-customizer.desktop': <{'position': <6>}>, 'lstopo.desktop': <{'position': <7>}>, 'htop.desktop': <{'position': <8>}>, 'ice.desktop': <{'position': <9>}>, 'org.kde.latte-dock.desktop': <{'position': <10>}>, 'net.lutris.Lutris.desktop': <{'position': <11>}>, 'cups.desktop': <{'position': <12>}>, 'jconsole-java-openjdk.desktop': <{'position': <13>}>, 'jshell-java-openjdk.desktop': <{'position': <14>}>, 'assistant.desktop': <{'position': <15>}>, 'designer.desktop': <{'position': <16>}>, 'linguist.desktop': <{'position': <17>}>, 'qdbusviewer.desktop': <{'position': <18>}>, 'qv4l2.desktop': <{'position': <19>}>, 'qvidcap.desktop': <{'position': <20>}>, 'org.gnome.Software.desktop': <{'position': <21>}>, 'remote-viewer.desktop': <{'position': <22>}>, 'snapper-gui.desktop': <{'position': <23>}>}, {'stacer.desktop': <{'position': <0>}>, 'steam.desktop': <{'position': <1>}>, 'synergy.desktop': <{'position': <2>}>, 'uxterm.desktop': <{'position': <3>}>, 'virt-manager.desktop': <{'position': <4>}>, 'whatsapp-nativefier.desktop': <{'position': <5>}>, 'winetricks.desktop': <{'position': <6>}>, 'xterm.desktop': <{'position': <7>}>, 'Zoom.desktop': <{'position': <8>}>, 'mpv.desktop': <{'position': <9>}>, 'picom.desktop': <{'position': <10>}>, 'org.gnome.Epiphany.desktop': <{'position': <11>}>, 'org.gnome.Calendar.desktop': <{'position': <12>}>}]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com']
+favorite-apps=['brave-browser.desktop', 'org.gnome.Nautilus.desktop', 'kitty.desktop', 'vim.desktop', 'org.gnome.Music.desktop', 'github-desktop.desktop', 'timeshift-gtk.desktop']
+welcome-dialog-last-shown-version='41.5'
+
+[shell/extensions/dash-to-dock]
+background-opacity=0.80000000000000004
+dash-max-icon-size=48
+dock-position='BOTTOM'
+height-fraction=0.90000000000000002
+intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+multi-monitor=true
+show-apps-at-top=true
+
+[shell/extensions/user-theme]
+name='Ultimate-Delta-Green'
+
+[shell/keybindings]
+toggle-message-tray=@as []
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1649158489
+
+[tweaks]
+show-extensions-notice=false
