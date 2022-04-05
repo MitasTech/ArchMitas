@@ -144,7 +144,7 @@ echo 'Plymouth theme installed'
 
 
 cd ~
-cp -r ~/home/$USERNAME/ArchMitas/configs/archpacman.png /usr/share/backgrounds/gnome/
+cp -r ~/ArchMitas/configs/archpacman.png /usr/share/backgrounds/gnome/
 cp -r ~/ArchMitas/configs/full-backup/* ~/.config/
 sleep 1
 cd ~
