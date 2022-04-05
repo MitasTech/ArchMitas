@@ -149,7 +149,7 @@ cp -r ~/ArchMitas/configs/full-backup/* ~/.config/
 sleep 1
 cd ~
 cd ~/ArchMitas/configs/
-dconf load /org/gnome < full-backup
+dconf load /org/gnome/ < full-backup
 sleep 1
 
 cd ~
