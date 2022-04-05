@@ -15,7 +15,7 @@ rofi
 feh
 i3lock-fancy
 lightdm-webkit2-greeter
-lightdm-webkit-theme-litarvan
+lightdm-webkit-theme-aether
 lxappearance
 pnmixer
 qt5ct

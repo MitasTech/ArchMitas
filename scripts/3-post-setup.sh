@@ -66,10 +66,6 @@ if [[ ${DESKTOP_ENV} == "kde" ]]; then
 
 elif [[ "${DESKTOP_ENV}" == "gnome" ]]; then
   systemctl enable gdm.service
-  
-elif [[ "${DESKTOP_ENV}" == "awesome" ]]; then
-  systemctl enable lightdm.service
-
 elif [[ "${DESKTOP_ENV}" == "lxde" ]]; then
   systemctl enable lxdm.service
 
