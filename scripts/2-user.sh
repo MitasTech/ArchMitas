@@ -90,6 +90,8 @@ cd chrome-gnome-shell
 makepkg -si
 
 cd ~
+sudo pacman -S sassc
+sleep 2
 git clone https://github.com/ewlsh/dash-to-dock
 cd dash-to-dock
 git checkout ewlsh/gnome-40
