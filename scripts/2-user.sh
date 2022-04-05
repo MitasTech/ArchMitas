@@ -83,12 +83,14 @@ if [[ $INSTALL_TYPE == "FULL" ]]; then
     cd .config
     dconf load / < full-backup
   fi
+fi
 # Theming DE if user chose FULL Awesome installation
 if [[ $INSTALL_TYPE == "FULL" ]]; then
   if [[ $DESKTOP_ENV == "awesome" ]]; then
     cd ~
     git clone https://github.com/ChrisTitusTech/titus-awesome ~/.config/awesome
   fi
+fi
 echo -ne "
 -------------------------------------------------------------------------
                     SYSTEM READY FOR 3-post-setup.sh
