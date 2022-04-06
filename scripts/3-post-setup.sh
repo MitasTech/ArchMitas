@@ -141,38 +141,6 @@ else
 fi
 plymouth-set-default-theme -R arch-glow # sets the theme and runs mkinitcpio
 echo 'Plymouth theme installed'
-
-
-cd ~
-cp -r ~/ArchMitas/configs/archpacman.png /usr/share/backgrounds/gnome/
-cp -r ~/ArchMitas/configs/full-backup/* ~/.config/
-sleep 1
-cd ~
-cd ~/ArchMitas/configs/
-dconf load /org/gnome/ < full-backup
-sleep 1
-
-cd ~
-sleep 2
-git clone https://github.com/ewlsh/dash-to-dock
-sleep 5
-cd dash-to-dock
-sleep 2
-git checkout ewlsh/gnome-40
-sleep 1
-make
-sleep 5
-make install
-sleep 5
-cd ~
-git clone https://aur.archlinux.org/chrome-gnome-shell.git
-sleep 5
-cd chrome-gnome-shell
-sleep 1
-makepkg -si -y
-
-sleep 1
-cd ~
 cp -r ~/zsh/.zshrc ~/
 cp -r ~/ArchMitas/configs/.bashrc ~/
 
