@@ -29,5 +29,3 @@ vde2
 zoom
 whatsapp-nativefier
 konsave
-stacer
-
