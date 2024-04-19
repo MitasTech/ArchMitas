@@ -3,7 +3,7 @@ I've also added a few packages that i want on my computer, i also changed grub t
 
 Thank you Chris for this awesome script!
 
-#Disclaimer
+# Disclaimer
 As of the Plasma 6 Update, the end product will not look exactly as it looks in the picture. Latte-Dock is not available for Plasma 6 and until now there is no a way to bypass this.
 Everything else however, looks exactly the same!
 In the meantime i will do a research on similar quality docks and once i feel confident that a cerain dock is as great as latte dock was, its going to make into the end product.
