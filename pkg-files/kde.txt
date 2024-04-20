@@ -22,7 +22,6 @@ kinfocenter
 konsole
 kscreen
 kvantum-qt5
-kwalletmanager
 kwayland-integration
 layer-shell-qt
 milou

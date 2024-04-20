@@ -8,7 +8,6 @@ xorg-xinit
 xterm
 binutils
 dosfstools
-linux-headers
 linux-lts
 linux-lts-headers
 noto-fonts-emoji
@@ -46,7 +45,6 @@ flex
 fuse2
 fuse3
 fuseiso
-gamemode
 gcc
 gimp
 gparted
@@ -62,7 +60,6 @@ kitty
 libdvdcss
 libtool
 lsof
-lutris
 lzop
 m4
 make
@@ -88,9 +85,7 @@ python-pip
 qemu
 snap-pac
 snapper
-steam
 swtpm
-synergy
 terminus-font
 traceroute
 ttf-droid
